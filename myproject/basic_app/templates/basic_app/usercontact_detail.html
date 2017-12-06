@@ -1,0 +1,7 @@
+{% extends "basic_app/base.html" %}
+{% block content %}
+  <div class="container">
+    Username: <strong>{{ user.username }}</strong><br>
+    Contacts: <strong>{{ user.usercontact.user_contact }}</strong>
+  </div>
+{% endblock %}
